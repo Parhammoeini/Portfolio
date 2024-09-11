@@ -1,0 +1,153 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
+    text-align: center;
+  }
+  
+  /* Biography section styling */
+  .biography {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+  }
+  .biography img{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .biography h2 {
+    font-size: 1.5rem;
+    color: #e0e0e0; /* Light text color */
+    margin-bottom: 15px;
+  }
+  
+  .biography p {
+    font-size: 1rem;
+    color: #b0b0b0; /* Slightly darker text color for better readability */
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  
+  
+  .biography a {
+    color: #81c784; /* Light green for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .biography a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Project container */
+  .project1 {
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Video styling */
+  .project1 video {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  }
+  
+  /* Caption styling */
+  caption {
+    font-size: 1.1rem;
+    color: #b0b0b0; /* Slightly darker text color for better readability */
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 15px;
+  }
+  
+  caption a {
+    color: #81c784; /* Light green for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  caption a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ordered list (ol) styling */
+  aside ol {
+    list-style: none; /* Remove default numbering */
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  aside ol li {
+    background-color: #2c2c2c; /* Dark background for list items */
+    color: #e0e0e0; /* Light text color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  
+  /* Add a custom icon (circle) before each list item */
+  aside ol li::before {
+    content: "•";
+    color: #81c784; /* Light green for icons */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .biography, .project1 {
+      padding: 15px;
+    }
+  
+    .biography p {
+      font-size: 1rem;
+    }
+  
+    aside ol li {
+      font-size: 1rem;
+    }
+  }
+  
+  
