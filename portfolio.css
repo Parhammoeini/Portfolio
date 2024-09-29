@@ -55,7 +55,22 @@
   }
 
   
+  #custom-video::-webkit-media-controls {
+    display: none !important; /* For Chrome, Safari, and Opera */
+  }
   
+  #custom-video::-moz-media-controls {
+    display: none !important; /* For Firefox */
+  }
+  
+  /* Optionally, hide the cursor when hovering for a cleaner look */
+  #custom-video {
+    cursor: none;
+  }
+  
+  #custom-video:hover {
+    cursor: none; /* Cursor stays hidden on hover */
+  }
   .biography a {
     color: #81c784; /* Light green for links */
     text-decoration: none;
